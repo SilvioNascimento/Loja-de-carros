@@ -53,3 +53,43 @@ section button:hover {
     color: #6495ED;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
+
+.resultados-pesquisa {
+    width: 50rem;
+    height: 100vh;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+}
+
+.item-resultado {
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.item-resultado h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #6495ED;
+}
+
+.item-resultado a {
+    text-decoration: none;
+    color: #294059;
+}
+
+.item-resultado a:hover {
+    text-decoration: underline;
+}
+
+.item-resultado img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+}
+
