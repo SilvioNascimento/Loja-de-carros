@@ -111,6 +111,9 @@ footer {
 }
 
 @media (max-width: 480px) {
+    body {
+        height: 90%;
+    }
 
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
