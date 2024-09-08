@@ -112,10 +112,6 @@ footer {
 
 @media (max-width: 480px) {
 
-    body {
-        height: 150vh;
-    }
-
     h1 {
         font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
         letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
@@ -141,6 +137,5 @@ footer {
 
     footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
-        position: fixed;
     }
 }
