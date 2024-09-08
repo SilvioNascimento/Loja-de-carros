@@ -113,7 +113,7 @@ footer {
 @media (max-width: 480px) {
 
     body {
-        height: 130vh;
+        height: 100vh;
     }
 
     h1 {
